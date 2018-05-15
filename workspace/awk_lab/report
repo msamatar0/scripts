@@ -1,0 +1,14 @@
+Lab 5 Report
+Mohamed Samatar - 889682704
+
+What:
+For this lab we were to parse a file in specific ways using awk. awk involves running commands on text line by line, though regex or any kind of condition is necessary to parse specific lines.
+
+How:
+sort is necessary to allow the correct lines to be parsed in a specific order. Since the list is a .csv (comma-seperated values) folder, it is possible to sort by column
+
+Why:
+The awk reports involving prices require a numerical sort, using sort -n as the default comparison is with strings. certain prices are invalid (having letters instead of numbers) and some lines use placeholder text and have no price. Here it's necessay to parse only lines which match certain regex expressions defined at th start of each block.
+
+Overall, this lab was a challenging exercise, especially when it came to contending with the quirks of the awk language compared to other less event-based languages.
+

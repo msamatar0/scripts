@@ -1,0 +1,15 @@
+Mohamed Samatar - 889682704
+4/12/18
+
+This lab had much more attention to detail required to write a functional script.
+
+Who:
+The program requires that a user input information. Rather than taking it as a parameter, I used the "read" command in bash to assign standard input to a variable during the program. The user "plays" a game of Rock-Paper-Scissors against the computer, which means the computer randomly picks either 1, 2, or 3. These values represent rock, paper, and scissors, respectively.
+
+What:
+In order to make the program work, I needed to first use chmod to make it executable. After that, I needed to make sure variables were assigned correctly. The script required several complex if and case statements in order to function, especially when checking the result of the game. The result is echoed into a text file along with the time and date the game was performed.
+
+Why:
+The program essentially compares rock, paper, and scissors in an if statement that evaluates both players' choices against each other in standard RPS fashion. The if statement determines who wins the match, but if the input is incorrect, the game is rendered "invalid". This is the reason for the case statements that assign a number to a variable based on user choice; quick comparison of the RPS result. Since the name of the file for storing the result changes depending of the time of day down to the minute, RPS games are essentially sorted by time.
+
+PS1=‘[\u@\h \d \t \w]$’

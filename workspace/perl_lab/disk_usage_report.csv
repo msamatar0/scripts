@@ -1,0 +1,16 @@
+Controller Name,System ID,Serial Number,Model,Status,
+EnterpriseStore1,124578383,965321000632,FAS8200,ok,
+EnterpriseStore2,124578490,965321000631,FAS8200,ok,
+
+
+
+Filesystem,total,used,avail capacity,Mounted on,Vserver,
+/vol/vfiler_DC_INF2_cifs_01/,1887436MB,1554856MB,332580MB,82%,/vfiler_DC_INF2_cifs_01,svm_dc-inf_sata,
+/vol/prod1_nfs_01/,7340032MB,2027160MB,5312871MB,28%,/prod1_nfs_01,svm_sas,
+/vol/vfiler_PROD1_Moodle_Ful_01/,512000MB,144337MB,367662MB,28%,/vfiler_PROD1_Moodle_Ful_01,svm_sas,
+/vol/vfiler_PROD1_Moodle_LA_01/,155648MB,44251MB,111396MB,28%,/vfiler_PROD1_Moodle_LA_01,svm_sas,
+/vol/vol0/,430398MB,34985MB,395413MB,8%,---,es01-02,
+/vol/vol0/,3015680MB,34955MB,2980724MB,1%,---,es01-01,
+/vol/svm_dc_inf_sata_root/,972MB,3MB,969MB,0%,/,svm_dc-inf_sata,
+/vol/SVM_Fiber_BAKUP_root/,972MB,2MB,970MB,0%,/,svm_fiber_backup,
+/vol/svm_sas_root/,972MB,3MB,969MB,0%,/,svm_sas,
