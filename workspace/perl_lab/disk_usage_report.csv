@@ -1,6 +1,6 @@
-Controller Name,System ID,Serial Number,Model,Status
-EnterpriseStore1,124578383,965321000632,FAS8200,ok
-EnterpriseStore2,124578490,965321000631,FAS8200,ok
+Controller Name,System ID,Serial Number,Model,Status,
+EnterpriseStore1,124578383,965321000632,FAS8200,ok,
+EnterpriseStore2,124578490,965321000631,FAS8200,ok,
 
 
 
