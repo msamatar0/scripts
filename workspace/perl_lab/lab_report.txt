@@ -2,15 +2,37 @@ Mohamed Samatar - 889682704
 Perl Lab Report
 
 What:
-This lab involves using perl to sort a list of data usage reports by capacity (percentage). In order to accomplish this, one must use perl's unique sorting operators, such as the spaceship operator or the file handler input operator, to parse each line of the sample report. when the script is finished sorting the lines in descending order of capacity, a new report is created as a csv, consisting of the sorted data.
+This lab involves using perl to sort a list of data usage reports by capacity (percentage).
+In order to accomplish this, one must use perl's unique sorting operators,
+  such as the spaceship operator or the file handler input operator, to parse each line of the sample report.
+when the script is finished sorting the lines in descending order of capacity,
+  a new report is created as a csv, consisting of the sorted data.
 
 How:
-Coding the script involves utilizing perl's data types (mainly scalar and array). To sort the lines, they first must be read into an array. This involves parsing the file line-by-line and selecting lines that have a capacity percentage, adding them to an array as they are matched. The header lines are saved for later, when outputting the file.
+Coding the script involves utilizing perl's data types (mainly scalar and array).
+To sort the lines, they first must be read into an array.
+This involves parsing the file line-by-line and selecting lines that have a capacity percentage,
+  adding them to an array as they are matched.
+The header lines are saved for later, when outputting the file.
 
-The percentage is picked out of the line and each percent is saved, along with each line, to a 2d array in a way that leaves each capacity parallel to the line it was from. Each capacity variable in the array is replaced so that the percent at the end is just the variable's "end of line". The whole 2d array is then sorted by capacity, which is effectively a "column" of its own in the array, using the spaceship operator.
+The percentage is picked out of the line and each percent is saved,
+  along with each line, to a 2d array in a way that leaves each capacity parallel to the line it was from.
+Each capacity variable in the array is replaced so that the percent at the end is just the variable's "end of line".
+The whole 2d array is then sorted by capacity, which is effectively a "column" of its own in the array,
+  using the spaceship operator.
 
-The sorted rows are then picked by whichever rows do not contain an instance of any keyword that is passed in to the program when it is executed. The lines that do not match any keyword are then output to a csv file, but not before the header is printed to the file. Each line that is printed to file has each header or column distinguished by replacing the spaces between columns with commas, which are automatically treated as columns when opened by a spreadsheet program.
+The sorted rows are then picked by whichever rows do not contain an instance of any
+  keyword that is passed in to the program when it is executed.
+The lines that do not match any keyword are then output to a csv file,
+  but not before the header is printed to the file.
+Each line that is printed to file has each header or column distinguished by replacing
+  the spaces between columns with commas, which are automatically treated as
+  columns when opened by a spreadsheet program.
 
 Why:
-The choice to sort a 2d array by capacity to sort each line was picked primarily due to simplicity. Initially, I decided on a hash to store a line and its capacity. This posed a problem as while I would be able to sort quickly, the hash would only output one of each file with a given capacity, effectively hiding any duplicates from the csv.
+The choice to sort a 2d array by capacity to sort each line was picked primarily due to simplicity.
+Initially, I decided on a hash to store a line and its capacity.
+This posed a problem as while I would be able to sort quickly,
+  the hash would only output one of each file with a given capacity,
+  effectively hiding any duplicates from the csv.
 
