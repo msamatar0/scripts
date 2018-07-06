@@ -2,7 +2,7 @@ Controller Name,System ID,Serial Number,Model,Status,,
 EnterpriseStore1,124578383,965321000632,FAS8200,ok,,
 EnterpriseStore2,124578490,965321000631,FAS8200,ok,,
 
-----------------------------------------------------------
+
 
 Filesystem,total,used,avail,capacity,Mounted on,Vserver
 /vol/vfiler_DC_INF2_cifs_01/,1887436MB,1554856MB,332580MB,82%,/vfiler_DC_INF2_cifs_01,svm_dc-inf_sata
