@@ -5,7 +5,7 @@ EnterpriseStore2,124578490,965321000631,FAS8200,ok
 
 
 Filesystem,total,used,avail,capacity,Mounted on,Vserver
-/vol/vfiler_DC_INF2_cifs_01/,1887436MB,1554856MB,332580MB,82%,/vfiler_DC_INF2_cifs_01,svm_dc-inf_sata, 
+/vol/vfiler_DC_INF2_cifs_01/,1887436MB,1554856MB,332580MB,82%,/vfiler_DC_INF2_cifs_01,svm_dc-inf_sata,---
 /vol/prod1_nfs_01/,7340032MB,2027160MB,5312871MB,28%,/prod1_nfs_01,svm_sas
 /vol/vfiler_PROD1_Moodle_Ful_01/,512000MB,144337MB,367662MB,28%,/vfiler_PROD1_Moodle_Ful_01,svm_sas
 /vol/vfiler_PROD1_Moodle_LA_01/,155648MB,44251MB,111396MB,28%,/vfiler_PROD1_Moodle_LA_01,svm_sas
